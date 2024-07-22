@@ -1,0 +1,105 @@
+      /* Ensure html and body take full height */
+      html, body {
+        height: 100%;
+      }
+
+      /* Use flexbox layout */
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* selectors */
+ul{
+    justify-content: flex-end;
+    gap: 16px;
+
+}
+
+
+/* classes */
+.navigationBar{
+    justify-content: space-between;
+}
+.header{
+
+}
+.subheader{
+    justify-content: center;
+}
+
+.subheader_info{
+    flex-basis: 400px;
+}
+
+
+.subContent_quoteSource {
+    justify-content: flex-end;
+}
+
+.mainContent_header{
+    flex-basis: 900px;
+}
+.subContent_quote{
+    flex-basis: 600px;
+}
+
+
+/* grouped classes */
+
+
+body,ul,
+.header,.navigationBar,
+.subContent,.subheader,.subheader_info,.subheader_img,
+.mainContent,.mainContent_header,.mainContent_title,.mainContent_imgMasterSet,.mainContent_imgSet,.mainContent_subset,.mainContent_filler
+.subContent,.subContent_quote,.subContent_quoteSource,.subContent_filler,
+.callToAction,.callToAction_text,.callToAction_button,
+.footer{
+    display: flex;
+}
+
+.test{
+    display: flex;
+
+}
+
+body ,
+.subheader_info,
+.mainContent_imgMasterSet,.mainContent_header,.mainContent_subset,
+.subContent_quote,
+.callToAction_text
+{
+    flex-direction: column;
+}
+mainContent_title
+.logo,.navigationBar{
+    flex-grow: 1;
+    align-items: center;
+}
+
+.subheader_img,
+.mainContent,.mainContent_header,.mainContent_title,
+.subContent,
+.callToAction,
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+.subheader_img,
+.callToAction_button{
+
+    padding-left: 50px;
+}
+
+
+
+.subheader,
+.mainContent,
+.subContent
+{
+    flex-grow: 1;
+}
