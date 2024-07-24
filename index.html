@@ -1,169 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFirstHomePage</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="header">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyFirstHomePage</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
 
-        <div class="navigationBar">
+    <body class="flex column ">
 
-            <div class="logo">
-                <a href="#">Header Logo</a>
-            </div>
 
-            <div class="logo">
-                <ul>
-                    <li><a href="#"> header link one </a></li>
-                    <li><a href="#"> header link two </a></li>
-                    <li><a href="#"> header link three </a></li>
+        <!-- Header section -->
+        <div class="heading flex" >
+            <div class="padding"></div>
+            <div class="heading_contents flex wrap" >
+                <a id="logo" class="selfCentered" href="#">Header logo</a>
+            
+                <ul class="flex selfCentered">
+                    <li><a class="wrap" href="#">header link one</a></li>
+                    <li><a class="wrap" href="#">header link two</a></li>
+                    <li><a class="wrap" href="#">header link three</a></li>
                 </ul>
-            </div>       
 
-        </div>
-
-    </div>
-
-    <div class="subheader">
-
-        <div class="subheader_info">
-
-
-            <h1 class="subheader_info_title">This website is awesome</h1>
-
-
-            <p class="subheader_info_subtext">
-
-                THis website has some subtext 
-                that goes here under the main 
-                title. its smaller font and the 
-                color is a lower contrast.
-
-
-            </p>      
-            
-            <p class="subheader_info_button">
-
-                Sign up
-
-            </p>    
-
-        </div>
-
-        <div class="subheader_img">
-
-            <img src="#" 
-                    alt=" this is a placeholder for an image">
-  
-        </div>    
-
-    </div>
-
-    <div class="mainContent">
-        <p class="mainContent_filler"></p>
-        <div class="mainContent_header">
-            <h2>Some Random Information</h2>
-            
-            <div class="mainContent_imgMasterSet">
-                <div class="mainContent_imgSet">
-                    <!--mainContent_subset_1  -->
-                    <div class="mainContent_subset">
-                        <img class="mainContent_img" src="" 
-                        alt="this is a placeholder for an image"> 
-                        
-                        <p>
-                            this is some suptext under an illustrattion
-                            or image.
-                        </p>
-                    </div>
-                    <!--mainContent_subset_2  -->
-                    <div class="mainContent_subset">
-                        <img class="mainContent_img" src="" 
-                        alt="this is a placeholder for an image"> 
-                        
-                        <p>
-                            this is some suptext under an illustrattion
-                            or image.
-                        </p>
-                    </div> 
-                    <!--mainContent_subset_3  -->
-                    <div class="mainContent_subset">
-                        <img class="mainContent_img" src="" 
-                        alt="this is a placeholder for an image"> 
-                        
-                        <p>
-                            this is some suptext under an illustrattion
-                            or image.
-                        </p>
-                    </div>
-                    <!--mainContent_subset_4  -->
-                    <div class="mainContent_subset">
-                        <img class="mainContent_img" src="" 
-                        alt="this is a placeholder for an image"> 
-                        
-                        <p>
-                            this is some suptext under an illustrattion
-                            or image.
-                        </p>
-                    </div>
-    
-                </div>
             </div>
-            
+            <div class="padding"></div>
         </div>
-        <p class="mainContent_filler"></p>
-    </div>
+        
+        <!-- Main content of website -->
+        <div class="mainContent flex">
+            <div class="padding"></div>
+            <div class="mainContent_contents flex wrap">
+                <!-- Main content left side -->
+                <div class="flex column">
 
-    <div class="subContent">
-        <p class="subContent_filler"></p>
-        <div class="subContent_quote">
-            
-            <h3 class="test">
-                This is an inspering quote, or a testimonial from a 
-                customer. maybe it's just filling up space, or maybe people 
-                will actually read it. who knows? All I known is that it 
-                looks nice
-            </h3>  
-            <p class="subContent_quoteSource">
-                -Thor, God of Thunder
-            </p>                
+                    <h1 class="flex wrap">This website is awesome</h1>
+
+                    <p class="flex wrap">
+                        This website has some subtext that goes here
+                        under the main title. It's smaller font and the
+                        the color is lower contrast.
+                    </p>
+                    <a class="button" href="#">Sign up</a>
+
+                </div> 
+                <!-- Main content right side -->
+                <img class="wrap" src="#" alt="this is a placeholder for an image">
+            </div>
+            <div class="padding"></div>
+         </div>
+         <!-- sub-content section -->
+        <div class="subContent flex">
+            <div class="padding"></div>
+            <div class="subContent_contents flex column">
+                <h2 class="selfCentered wrap">Some random information</h2>
+                <!-- Collection of images and subtext -->
+                <div class="imgSets flex wrap">
+                    <div class="flex column">
+                        <img class="flex selfCentered wrap" src="#" alt="this is a placeholder for an image">
+                        <p class="wrap">this is some subtext under an illustration of an image</p>
+                    </div>
+
+                    <div class="flex column">
+                        <img class="flex selfCentered wrap" src="#" alt="this is a placeholder for an image">
+                        <p class="wrap">this is some subtext under an illustration of an image</p>
+                    </div>
+
+                    <div class="flex column">
+                        <img class="flex selfCentered wrap" src="#" alt="this is a placeholder for an image">
+                        <p class="wrap">this is some subtext under an illustration of an image</p>
+                    </div>
+
+                    <div class="flex column">
+                        <img class="flex selfCentered wrap" src="#" alt="this is a placeholder for an image">
+                        <p class="wrap">this is some subtext under an illustration of an image</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="padding"></div>
+
+        </div>
+        <!-- Testimony section -->
+        <div class="testimony flex">
+            <div class="padding"></div>
+            <div class="testimony_contents flex column">
+                <h3 class="flex wrap">
+                    This is an inspiring quote, or a testimony from a
+                    customer. Maybe it's just filling up spaces, or maybe 
+                    people will actually read it. Who know? All I know is 
+                    that it looks nice.
+                </h3>
+                <h4 class="flex wrap"> -Thor, God of Thunder</h4>
+            </div>
+            <div class="padding"></div>
         </div>
 
-        <p class="subContent_filler"></p>
+        <!-- call to action section -->
+        <!-- Top padding for call to action -->
+        <div class="callToAction_padding flex"></div> 
+        <div class="callToAction flex">
+            <div class="padding"></div>
+            <div class="callToAction_contents flex">
+                <!-- Call to action section left side  -->
+                <div class="column">
+                    <h3> Call to action! It's time!</h3>
 
-    </div>
+                    <p>Sign up for our product by clicking that button 
+                        right over there!</p>                    
+                </div>
 
-    <div class="callToAction">
+                <!-- Call to action section right side -->
+                <p class="button selfCentered">Sign up</p>
+            </div>
+            <div class="padding"></div>
+        </div> 
+        <!-- Bottom padding for call to action -->
+        <div class="callToAction_padding flex pagePadding"></div>
 
-        <div class="callToAction_text">
-
-            <h3 class="callToAction_title">
-            
-                Call to action! It's time!
-    
-            </h3>
-            
-            <p class="callToAction_subtext"> 
-                Sgin up for our prduct by 
-                click that button right over there!
-            </p>
-
+        <!-- Footer section -->
+        <div class="footer flex">
+            <div class="padding"></div>
+            <p class="selfCentered">Copyright © The Odin Project 2021</p>
+            <div class="padding"></div>
         </div>
 
 
-        <p class="callToAction_button">
-            Sign up
-        </p>
+    </body>
 
-    </div>  
-
-    <div class="footer">
-
-        Copyright @ The Odin Project 2021
-
-    </div> 
-</body>
 </html>
