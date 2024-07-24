@@ -70,7 +70,7 @@ html{height: 100%; margin: 0px; padding: 0px;}
                         background-color: #3882f6;border-radius: 10px;}
 .callToAction_contents h3 {color: #f9faf8; font-weight: bolder;margin-bottom: 0px;}
 .callToAction_contents p {color: #e5e7eb; font-weight: lighter;margin-top: 0px;}
-.callToAction_contents .button {color: #e5e7eb; font-weight: bold; padding: 10px;
+.callToAction_contents .button {text-decoration: none; color: #e5e7eb; font-weight: bold; padding: 10px;
                                 border:2px,solid, #e5e7eb; border-radius: 10px;
                                 padding-left: 25px; padding-right: 25px;}
 
